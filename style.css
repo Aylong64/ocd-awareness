@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(benner_1.jpg);
+}
+header {
+    background-color: #636df3;
+    padding: 20px;
+}
+header h1{
+    color: white;
+}
+
+nav ul {
+    list-style-type: unset;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f4bec;
+    padding: 10px;
+}
+
+nav ul li {
+    float: middle;
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #636df3;
+    border-radius: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.resources
+{
+    display: unset;
+    justify-content: space-between;
+    align-items: left;
+}
+footer {
+    background-color: rgb(79, 96, 243);
+    padding: 20px;
+    text-align: center;
+}
